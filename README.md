@@ -4,7 +4,6 @@
 #### Email: koulkoudakis@gmail.com
 #### Website: https://www.linkedin.com/in/sharome-burton/
 #### Image:
-![Sharome Burton](https://imgur.com/mDjTWNi)
+![Sharome Burton](https://i.imgur.com/mDjTWNi)
 #### Avatar:
-![Avatar](https://imgur.com/StceM3w)
-[Imgur](https://imgur.com/StceM3w)
+![Avatar](https://i.imgur.com/StceM3w.jpg)
