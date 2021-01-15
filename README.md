@@ -7,3 +7,4 @@
 ![Sharome Burton](https://imgur.com/mDjTWNi)
 #### Avatar:
 ![Avatar](https://imgur.com/StceM3w)
+[Imgur](https://imgur.com/StceM3w)
