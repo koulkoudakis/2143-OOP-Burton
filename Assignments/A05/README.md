@@ -71,4 +71,3 @@
 #### Virtual
 > Virtual, in the context of methods, are functions that are declared in a parent class that are overridden (or re-defined) in a child class. Virtual methods help with polymorphism. For example, greet() is defined as a virtual function within the Animal class, but greet() is overridden to output "bark" for the Dog class and "meow" for the Cat class.
 
-#### ETC...
