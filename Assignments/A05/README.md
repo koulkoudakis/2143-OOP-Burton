@@ -9,14 +9,49 @@
 #### Class
 
 > A class is basically a 'recipe' for creating objects. Its properties (or attributes) and methods (or member functions) are defined within the class. In other words, it is a blueprint for creating objects when a program runs. Classes can be built-in to the language or programmer-defined.
-> are 
+> 
 ><img src="https://ds055uzetaobb.cloudfront.net/image_optimizer/722c82aff075a14313be7fa7463f7fedad151a0a.png" width=250>
 
 
 #### Object
-> This is your object definition....
+> An object is the 'product' of a class that only exists when it is instantiated within a program. If a class is a recipe for a wedding cake, the object is the wedding cake. THe wedding cake exists only after runtime starts at the bakery, and the wedding cake doesn't (or shouldn't, anyway) exist after the wedding (program ends).
 
 #### Method
-> This is your method definition.....
+> Methods are special functions that are defined within a class. They allow objects to do 'special' things and in many cases, have exclusive access to data that is stored within the object itself. For a car object, honking could be one of the methods that can only be accessed from *within* the car. 
+
+#### Abstraction
+> Abstraction is a concept that in layman's terms implies ", if it's complicated, keep it under the hood". Abstraction is basically the act of showing only important information to the user, keeping unrelated or unnecessary information out of clear sight. This can help increase user efficiency and avoid a lot of confusion!
+
+#### Attributes/Properties
+> Attributes are variables stored within an object. For a combat jet object, its current airspeed and heading would be attributes specific and unique to that instance of the combat jet class.
+
+#### Class Variable
+> Class variables (AKA static variables)are variables defined within the class, that all objects instantiated from that class basically depend upon. For example, there are thousands of instances of the A10-C Warthog object, but their model name and original designer are class variables that are in common with all of them.
+
+#### Composition
+> Composition is basically the concept of having classes refer to other classes in instance variables, making things a lot more complicated an intertwined, but allowing for greater capabilities. This allows for objects to have relationships with eachother (as nature intended). For example, the human body class has digestive system organs classes defined within it, which in turn may refer to the circulatory system for some methods or attributes, which refer to the brain class in some shape or form.
+
+#### Constructor
+> Constructors are special functions that are used to create (or instantiate) objects. An object's attributes may be determined at instantiation by passing parameters in to this constructor function.
+
+#### Encapsulation
+> Encapsulation is the concept of centralizing data and related methods into one coherent unit (class). That way, methods that act upon that related data can only be used within an instance of that class. This is useful for hiding data and generally keeping things organized and neat.
+
+#### Friends
+> Often confused with the sitcom, friends are functions that allow access to private attributes from outside the class, as if it were a private member function. This is like giving your house keys to a trusted distant family member for use in case of emergency or house-sitting.
+
+#### Inheritance
+> This is basically the concept of having one class being based upon another, more general class. For example, a tiger would inherit certain common traits from the feline class (such as having four legs). That feline class may inherit traits from the vertabrate class (having bones). This may save a lot of time and effort in having to define all necessary attributes separately for two classes that only have slight differences (eg. Lion and Tiger class should just inherit from the feline class).
+
+#### Instance variable
+> This is a variable that is specific to one instance of a class. DNA sequence would be an attribute that is unique to each person object (with the exception of twins).
+
+#### Member variable
+> A member variable is specific to one instance of a class, but is accessible by all of its member functions. The TV remote my be accessible by all members of the family in a house, but not by anyone outside the house.
+
+#### Methods
+> Methods are functions defined within a class that can access and work upon data within the class. Methods act upon variables within the class. Your breathing method acts upon *your* cells - you can't really breathe for someone else's body, can you?
+
+
 
 #### ETC...
