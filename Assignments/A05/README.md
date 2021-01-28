@@ -52,6 +52,8 @@
 #### Methods
 > Methods are functions defined within a class that can access and work upon data within the class. Methods act upon variables within the class. Your breathing method acts upon *your* cells - you can't really breathe for someone else's body, can you?
 
-
+#### Multiple inheritance
+> This is basically
+><img src="https://media.geeksforgeeks.org/wp-content/uploads/diamondproblem.png" width=250>
 
 #### ETC...
