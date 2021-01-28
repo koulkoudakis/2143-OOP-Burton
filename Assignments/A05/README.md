@@ -41,7 +41,7 @@
 > Often confused with the sitcom, friends are functions that allow access to private attributes from outside the class, as if it were a private member function. This is like giving your house keys to a trusted distant family member for use in case of emergency or house-sitting.
 
 #### Inheritance
-> This is basically the concept of having one class being based upon another, more general class. For example, a tiger would inherit certain common traits from the feline class (such as having four legs). That feline class may inherit traits from the vertabrate class (having bones). This may save a lot of time and effort in having to define all necessary attributes separately for two classes that only have slight differences (eg. Lion and Tiger class should just inherit from the feline class).
+> This is basically the concept of having one class being based upon another, more general class. For example, a tiger (child class) would inherit certain common traits from the (parent) feline class (such as having four legs). That feline class may inherit traits from the vertabrate class (having bones). This may save a lot of time and effort in having to define all necessary attributes separately for two classes that only have slight differences (eg. Lion and Tiger class should just inherit from the feline class).
 
 #### Instance variable
 > This is a variable that is specific to one instance of a class. DNA sequence would be an attribute that is unique to each person object (with the exception of twins).
@@ -53,7 +53,22 @@
 > Methods are functions defined within a class that can access and work upon data within the class. Methods act upon variables within the class. Your breathing method acts upon *your* cells - you can't really breathe for someone else's body, can you?
 
 #### Multiple inheritance
-> This is basically
+> This is basically the concept of having a class inherit methods or attributes from more than on parent class. This allows for more capability for each instance of such a child class, but increases complexity.
 ><img src="https://media.geeksforgeeks.org/wp-content/uploads/diamondproblem.png" width=250>
+
+#### Overloading
+> Overloading involves having the ability to input additional parameter types into a function or operator, to then allow that function to do specific different actions based on what type of data is input. For example a functions that adds integers 23 to 23 would result in 46 but inputting the strings '23' and '23' would result in the string '2323' via concatenation.
+
+#### Polymorphism
+> Polymorphism allows an object to exist in many different forms with different behaviours depending on the context within it is used. For example, circles and squares could be children of the shapes class, but when the showCorners() function is called, circles would return 0 and squares would return 4.
+
+#### Public / Private / Protected
+> These keyword basically differentiate who has access to the attributes and methods defined under them. Public attributes and methods may be access from outside the class, private attributes and methods may only be accessed by the current class, and protected attributes and methods may only be accessed by the current class or subclasses.
+
+#### Static 
+> The static keyword implies that a variable declared should exist and keep its value for the entire runtime of the program or between invocations of a function where it is defined. In another context, static variables defined within classes are shared by all instances of the class
+
+#### Virtual
+> Virtual, in the context of methods, are functions that are declared in a parent class that are overridden (or re-defined) in a child class. Virtual methods help with polymorphism. For example, greet() is defined as a virtual function within the Animal class, but greet() is overridden to output "bark" for the Dog class and "meow" for the Cat class.
 
 #### ETC...
