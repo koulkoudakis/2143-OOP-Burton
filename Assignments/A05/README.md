@@ -8,8 +8,8 @@
 
 #### Class
 
-> This is your definition of what a class is. Using images is A-ok. For example: 
->
+> A class is basically a 'recipe' for creating objects. Its properties (or attributes
+> are 
 ><img src="https://ds055uzetaobb.cloudfront.net/image_optimizer/722c82aff075a14313be7fa7463f7fedad151a0a.png" width=250>
 
 
