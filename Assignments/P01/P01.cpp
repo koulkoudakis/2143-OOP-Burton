@@ -1,3 +1,23 @@
+///////////////////////////////////////////////////////////////////////////////
+//                   
+// Author:           Sharome Burton
+// Email:            koulkoudakis@gmail.com
+// Label:            P01
+// Title:            Game: Game
+// Course:           CMPS 2143
+// Semester:         Spring 2021
+//
+// Description:
+//       This program implements a simple game where a green player ball aims to.
+//       dodge oncoming debris
+// Usage: 
+//      - $ ./main filename
+//      - Use up/down arrow keys to move green player ball
+//      
+// Files:            
+//      P01.cpp    : driver program 
+///////////////////////////////////////////////////////////////////////////////
+
 #include <SFML/Graphics.hpp>
 #include <iostream>
 #include <vector>
@@ -141,8 +161,8 @@ public:
         x = width-(rand() % 200);  // location (Far right of screen)
         y = (rand() % int(height));
         d = 0.03*(rand() % 10 + 1);             // speed
-        rwmin = 350; 
-        rhmin = 350;
+        rwmin = 350;    // minimum width
+        rhmin = 350;    // minimum height
 
         srand(time(NULL));      // randomize size
         rheight = rand() % rhmin + 150;      // rect height
@@ -193,7 +213,7 @@ public:
         rectangle->setPosition(sf::Vector2f(-1*(rwmin), y));
     }
 
-    sf::FloatRect getBounds() {
+    sf::FloatRect getBounds() { 
         return rectangle->getGlobalBounds();
     }
 
