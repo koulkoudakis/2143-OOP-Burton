@@ -1,0 +1,12 @@
+digraph
+4
+ao Angola
+bo Bolivia
+cm Camaroon
+ae United-Arab-Emirates
+5
+ao bo 3909 
+ao cm 771
+bo cm 5838
+bo ae 8577
+cm ae 2866
