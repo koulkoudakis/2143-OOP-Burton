@@ -5,7 +5,7 @@
 ### Class : 2143 - OOP
 
 #### Description:
-This program gives the output of the code for grapviz to be copied and pasted into the Graphviz program compiler. It is done by taking the aspects or syntax of the Graphviz
+This program gives the output of the code for Graphviz to be copied and pasted into the Graphviz program compiler. It is done by taking the aspects or syntax of the Graphviz
 API and converting it into C++ code.
 
 ### Repl link:
