@@ -1,4 +1,4 @@
-## Program 2 - Graphiviz API
+## Program 2 - Graphviz API
 
 ## Azizz Mills and Sharome Burton 
 ### Date : 3/30/2021
